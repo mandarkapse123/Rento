@@ -84,7 +84,7 @@ export default function RentDashboard() {
         </div>
         <div className="flex my-6 p-4 bg-white/50 rounded-lg border border-gray-200 w-fit">
   <a 
-    href="/api/data" 
+    href="/api/download" 
     className="px-4 py-2 bg-[#1a3a3a] text-white rounded-md font-semibold hover:opacity-90 transition-opacity"
   >
     Download Backup (Excel/CSV)
