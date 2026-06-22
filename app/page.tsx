@@ -91,9 +91,7 @@ export default function RentDashboard() {
   </a>
 </div>
         <div className="flex gap-4">
-          <button onClick={() => clearAllData()} className="text-sm font-semibold border border-hairline rounded-md px-4 py-2 hover:bg-surface-card text-brand-teal transition">
-            Clear Database
-          </button>
+          
         </div>
       </nav>
 
