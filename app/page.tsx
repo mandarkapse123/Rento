@@ -82,6 +82,14 @@ export default function RentDashboard() {
         <div className="font-extrabold text-xl flex items-center gap-2">
           <Building className="text-brand-pink" /> Rent<span className="text-brand-pink">Portal</span>
         </div>
+        <div className="flex my-6 p-4 bg-white/50 rounded-lg border border-gray-200 w-fit">
+  <a 
+    href="/api/data" 
+    className="px-4 py-2 bg-[#1a3a3a] text-white rounded-md font-semibold hover:opacity-90 transition-opacity"
+  >
+    Download Backup (Excel/CSV)
+  </a>
+</div>
         <div className="flex gap-4">
           <button onClick={() => clearAllData()} className="text-sm font-semibold border border-hairline rounded-md px-4 py-2 hover:bg-surface-card text-brand-teal transition">
             Clear Database
